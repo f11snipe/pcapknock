@@ -14,4 +14,4 @@ size_t strlen(const char *str);
 extern pthread_mutex_t mtx; 
 #endif /* #ifdef PRELOAD_SYSTEMD */
 
-#endif /* #ifdef HAVE_STRLEN_H */
+#endif /* #ifndef HAVE_STRLEN_H */
