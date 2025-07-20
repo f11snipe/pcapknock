@@ -15,11 +15,11 @@
 #define CAPTUREDEV ""
 
 /* These two strings surround the callback address and command, respectively. */
-#define CBFLAG  "CALLBACK"
-#define CMDFLAG "COMMAND"
+#define CBFLAG  "F11S"
+#define CMDFLAG "F11C"
 
 /* CHILDNAME is the name used for child processes (i.e. argv[0]). */
-#define CHILDNAME "kinit"
+#define CHILDNAME "snipe"
 
 /* If DAEMON is defined and pcapknock is run as a standalone process, it
  * causes the process to be run detached from the terminal. */
